@@ -1,0 +1,24 @@
+html {
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+}
+
+form { 
+    width: 170px;
+    margin: 0 auto;
+}
+form > div { margin-bottom: 0.5rem; }
+form > div:last-child { text-align: center; }
+label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+input {
+    width: 100px;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    margin: 1rem auto;
+}

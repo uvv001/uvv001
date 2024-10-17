@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>White noise image generator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body onload="init()">
+    <h1>White noise image generator</h1>
+    <form>
+        <div>
+            <label for="width">Width</label>
+            <input id="width" type="number" name="width" min="1" max="10000" step="1" value="500"  autocomplete="off" required>
+        </div>
+        <div>
+            <label for="height">Height</label>
+            <input id="height" type="number" name="height" min="1" max="10000" step="1" value="500" autocomplete="off" required>
+        </div>
+        <div>
+            <button type="submit">Generate</button>
+        </div>
+    </form>
+    <div style="display: none;">Done in <b>0.03ms</b></div>
+    <img width="0" height="0" alt="whitenoise">
+</body>
+</html>
